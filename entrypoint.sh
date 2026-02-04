@@ -12,4 +12,4 @@ build_args() {
     echo "$args"
 }
 
-exec /app/llama-server $(build_args) $MODEL_PATH
+exec /app/llama-server $(build_args) -m $MODEL_PATH
